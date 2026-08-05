@@ -7,7 +7,7 @@
   "use strict";
 
   /* ---------- CONFIG ---------- */
-  const API_URL = "https://nyc-airbnb-7xso.onrender.com";
+  const API_URL = "https://nyc-airbnb-7xso.onrender.com/predict";
 
   // NYC borough -> neighbourhood lookup, built from the categories the
   // trained OneHotEncoder was fit on (see main.py / Model_pipline.pkl).

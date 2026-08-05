@@ -1,0 +1,16 @@
+# ---- Web framework ----
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# ---- Data validation ----
+pydantic>=2.7.0
+
+# ---- ML / data ----
+# scikit-learn is pinned to the exact version the pipeline (Model_pipline.pkl)
+# was trained with. Loading it with a different scikit-learn version will
+# raise an InconsistentVersionWarning and can silently change behavior.
+scikit-learn==1.6.1
+pandas>=2.2.0
+numpy>=1.26.0
+joblib>=1.4.0
